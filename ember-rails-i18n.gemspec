@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ember-rails-i18n/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ember-i18n"
+  spec.name          = "ember-rails-i18n"
   spec.version       = EmberRailsI18n::VERSION
   spec.authors       = ["Kristjan Rang"]
   spec.email         = ["mail@rang.ee"]
