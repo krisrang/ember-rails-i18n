@@ -1,6 +1,6 @@
 require 'v8'
 
-module EmberI18n
+module EmberRailsI18n
   module Helper
     def self.output_locale(locale, translations = nil)
       locale_str = locale.to_s

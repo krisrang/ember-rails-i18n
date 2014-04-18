@@ -1,4 +1,4 @@
-# EmberI18n
+# EmberRailsI18n
 
 Use Rails I18n translations in the frontend and in Ember.
 99% of the code comes from and belongs to [Discourse](http://www.discourse.org/), I simply cut it down a bit and stuck it in a gem.
@@ -7,7 +7,7 @@ Use Rails I18n translations in the frontend and in Ember.
 
 Add this line to your application's Gemfile:
 
-    gem 'ember-i18n'
+    gem 'ember-rails-i18n'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install i18njs
+    $ gem install ember-rails-i18n
 
 ## Add translations
 
@@ -32,7 +32,7 @@ Create a file in app/assets/javascripts/locales/en.js.erb with these lines:
     
     //= depend_on 'client.en.yml'
     //= require locales/i18n
-    <%= EmberI18n.output_locale(:en) %>
+    <%= EmberRailsI18n.output_locale(:en) %>
 
 Add this line to your layout:
     
@@ -57,7 +57,7 @@ Or use included Ember Handlebars helpers:
 
 ## Contributing
 
-1. Fork it ( http://github.com/krisrang/ember-i18n/fork )
+1. Fork it ( http://github.com/krisrang/ember-rails-i18n/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

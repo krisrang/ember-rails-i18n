@@ -1,7 +1,7 @@
-require "ember-i18n/version"
-require "ember-i18n/helper"
+require "ember-rails-i18n/version"
+require "ember-rails-i18n/helper"
 
-module EmberI18n  
+module EmberRailsI18n  
   class Engine < ::Rails::Engine
   end
   
